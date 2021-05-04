@@ -38,18 +38,23 @@ a:hover {
 
 #button {
     display: inline-block;
-    height: 35px;
-    padding: 0 5px;
-    margin-right: 0;
-    line-height: 35px;
-    background: rgba(196, 196, 196, 0.8);
-    border-radius: 50px;
-    margin-top: 15px;
     transition: transform 1ms linear;    
 }
 
 #button:hover{
   transform: scale(1.08);
+}
+
+.buttonHeader {
+  display: inline-block;
+  height: 35px;
+  padding: 0 5px;
+  margin-right: 0;
+  line-height: 35px;
+  background: rgba(196, 196, 196, 0.8);
+  border-radius: 50px;
+  margin-top: 15px;
+  transition: transform 1ms linear;    
 }
 
 .container {
@@ -65,20 +70,6 @@ a:hover {
   background: rgba(89, 84, 84, 0.50); 
 }
 
-.h1Banner{
-  font-family: 'Mulish', sans-serif;
-  color: #FFF;
-  position: absolute;
-  margin-top: 10px;
-  font-weight: 800;
-  padding: 0;
-  font-size: 59px;
-  line-height: 150%;
-  text-align: center;
-  left: 2,5%;
-  top: 23%;
-}
-
 .pBanner{
   font-family: 'Mulish', sans-serif;
   font-weight: 500;
@@ -92,7 +83,7 @@ a:hover {
   top: 40%;
 }
 
-#buttonBanner{
+.buttonBanner{
   background: #191D20;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
   border-radius: 31px;
